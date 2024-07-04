@@ -1,5 +1,3 @@
-/* Home Page */
-
 #home-main-container {
   width: 100%;
   padding: 20px 50px;
@@ -24,7 +22,6 @@
   padding: 20px;
 }
 
-/* Filters Section */
 #filters-heading {
   font-size: var(--heading-h2-font-size);
   color: var(--heading-h2);
@@ -54,7 +51,6 @@
 }
 .icon {
   height: 1.5em;
-  /* margin-right:5px; */
 }
 .fl-text {
   width: 80%;
@@ -65,7 +61,7 @@
   font-size: 1.1em;
   font-weight: 500;
 }
-/* Project Section */
+
 #projects-heading {
   font-size: var(--heading-h2-font-size);
   color: var(--heading-h2);
@@ -92,11 +88,9 @@
   margin-left: 8px;
 }
 
-/* Tasks section */
 #tasks-main-container {
   height: 450px;
-  /* border:0.1px solid #B1B9C8;
-    border-radius:10px; */
+
   overflow: auto;
 }
 #tasks-main-container::-webkit-scrollbar {
@@ -194,7 +188,7 @@
   cursor: pointer;
   margin-left: 10px;
 }
-/* tasks footer section */
+
 #tasks-footer {
   width: 95%;
   border: var(--universal-border);
@@ -234,7 +228,6 @@
   outline-offset: 2px;
 }
 
-/* Tasks Create section */
 #CT-main-container {
   width: 30%;
   padding: 20px;
@@ -308,13 +301,9 @@
   outline-offset: -2px;
 }
 
-/* toast styling section */
-
-/* text section */
 #text-main-container {
   width: 95%;
   margin: 100px auto;
-  /* border:2px solid white; */
 }
 
 #text-main-container > section {
@@ -322,7 +311,6 @@
   margin: 10px;
   padding: 20px;
   display: flex;
-  /* align-items:center; */
 }
 #text-main-container :is(img) {
   height: 20em;
@@ -332,8 +320,6 @@
 #text-main-container :is(p) {
   text-align: justify;
 }
-
-/* form styling section */
 
 .form-main-container {
   width: 98%;
